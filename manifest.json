@@ -3,23 +3,21 @@
     "id": "gitlist",
     "packaging_format": 1,
     "description": {
-        "en": "Elegant and modern git repository viewer ",
-        "fr": "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)"
+        "en": "Elegant and modern git repository viewer",
+        "fr": "Elegant and modern git repository viewer"
     },
     "version": "1.0.2~ynh1",
     "url": "https://gitlist.org/",
     "upstream": {
-        "license": "free",
+        "license": "GPL-3.0-or-later",
         "website": "https://gitlist.org/",
-        "demo": "https://demo.example.com",
         "admindoc": "https://yunohost.org/packaging_apps",
-        "userdoc": "https://yunohost.org/apps",
         "code": "https://github.com/klaussilveira/gitlist"
     },
-    "license": "free",
+    "license": "GPL-3.0-or-later",
     "maintainer": {
-        "name": "John doe",
-        "email": "john.doe@example.com"
+        "name": "",
+        "email": ""
     },
     "requirements": {
         "yunohost": ">= 4.3.0"
@@ -35,12 +33,6 @@
             {
                 "name": "domain",
                 "type": "domain"
-            },
-            {
-                "name": "path",
-                "type": "path",
-                "example": "/gitlist",
-                "default": "/gitlist"
             },
             {
                 "name": "is_public",

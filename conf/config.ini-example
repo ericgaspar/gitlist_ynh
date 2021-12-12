@@ -12,7 +12,8 @@ repositories[] = '__DATADIR__' ; Path to your repositories
 ; hidden[] = '/home/git/repositories/BetaTest'
 
 [app]
-debug = false
+baseurl = 'http://__DOMAIN__PATH__' ; Base URL of the application
+debug = true
 cache = true
 theme = "default"
 title = ""

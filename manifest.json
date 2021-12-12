@@ -35,6 +35,12 @@
                 "type": "domain"
             },
             {
+                "name": "path",
+                "type": "path",
+                "example": "/git",
+                "default": "/git"
+            },
+            {
                 "name": "is_public",
                 "type": "boolean",
                 "default": true
